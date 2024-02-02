@@ -1,4 +1,5 @@
 import React from 'react';
+import Btn from '../Btn/Btn';
 import { COMPANY, FEATURES } from '../Header/consts';
 import NavItem from '../NavItem/NavItem';
 import NavMenuItem from '../NavMenuItem/NavMenuItem';
@@ -7,12 +8,12 @@ const MobileMenu = ({ isOpened = false }) => {
 	return (
 		<>
 			<div
-				className={`absolute top-0 left-0 right-0 bg-alm-black opacity-50 z-10 min-h-[150vh] ${
+				className={`fixed top-0 left-0 right-0 bg-alm-black opacity-50 z-10 min-h-screen ${
 					isOpened ? 'flex' : 'hidden'
 				}`}
 			/>
 			<div
-				className={`absolute top-0 right-0 w-1/2 bg-white z-20 min-h-[150vh] ${
+				className={`fixed top-0 right-0 w-1/2 bg-white z-20 min-h-screen ${
 					isOpened ? 'flex' : 'hidden'
 				}`}
 			>
@@ -33,6 +34,10 @@ const MobileMenu = ({ isOpened = false }) => {
 					</NavItem>
 					<NavItem text='Careers' />
 					<NavItem text='About' />
+					<div className='flex flex-col items-center'>
+						<Btn>Loggin</Btn>
+						<Btn hasBorder={true}>Register</Btn>
+					</div>
 				</nav>
 			</div>
 		</>
