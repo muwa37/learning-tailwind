@@ -3,26 +3,25 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Epilogue;
-  src: local('Epilogue'), url(../src/assets/fonts/Epilogue-Regular.ttf) format('truetype');
+	font-family: Epilogue;
+	src: local('Epilogue'),
+		url(../src/assets/fonts/Epilogue-Regular.ttf) format('truetype');
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
-  font-family: 'Epilogue', 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(0, 0%, 98%);
-  height: 100vh;
+	font-family: 'Epilogue', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: hsl(0, 0%, 98%);
 }
 
 svg {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
