@@ -4,14 +4,14 @@ import {ReactComponent as Todo} from '../../assets/images/icon-todo.svg'
 import {ReactComponent as Reminders} from '../../assets/images/icon-reminders.svg'
 
 export const FEATURES = [
-    {name: 'Planning', icon: <Planning/>},
-    {name: 'Calendar', icon: <Calendar/>},
-    {name: 'Todo', icon: <Todo/>},
-    {name: 'Reminders', icon: <Reminders/>},
+    {text: 'Planning', icon: <Planning/>},
+    {text: 'Calendar', icon: <Calendar/>},
+    {text: 'Todo', icon: <Todo/>},
+    {text: 'Reminders', icon: <Reminders/>},
 ]
 
 export const COMPANY = [
-    {name: 'History'},
-    {name: 'Our team'},
-    {name: 'Blog'},
+    {text: 'History'},
+    {text: 'Our team'},
+    {text: 'Blog'},
 ]
